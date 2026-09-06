@@ -67,3 +67,15 @@ $RECYCLE.BIN/
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
 
+
+# ---> FIRE D-Day
+# Live Toss Securities credentials. Never commit these.
+.env
+*.env
+!example.env
+
+# Xcode
+xcuserdata/
+*.xcuserstate
+DerivedData/
+.build/

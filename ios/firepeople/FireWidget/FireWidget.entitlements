@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Same App Group as the app target: this is where Settings and Snapshot live
+	     (AppGroup.identifier in FireCore). Without it AppGroup.defaults is nil and
+	     the widget can only render the "앱에서 목표를 설정해주세요" state. -->
+	<key>com.apple.security.application-groups</key>
+	<array>
+		<string>group.com.jay-lab.firepeople.shared</string>
+	</array>
+	<!-- Same keychain access group as the app target, so both processes read one
+	     shared access token. Only one token is valid per client (docs/api-notes.md
+	     § Auth): separate caches would revoke each other on every refresh.
+	     $(AppIdentifierPrefix) is substituted with the team id at build time and
+	     must therefore match firepeople.entitlements exactly. -->
+	<key>keychain-access-groups</key>
+	<array>
+		<string>$(AppIdentifierPrefix)com.jay-lab.firepeople.shared</string>
+	</array>
+</dict>
+</plist>

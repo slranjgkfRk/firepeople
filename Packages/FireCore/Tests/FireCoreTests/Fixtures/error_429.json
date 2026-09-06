@@ -1,0 +1,10 @@
+{
+  "error": {
+    "requestId": "01HXYZABCDEFG123456789",
+    "code": "rate-limit-exceeded",
+    "message": "",
+    "data": {
+      "retryAfterSeconds": 1
+    }
+  }
+}

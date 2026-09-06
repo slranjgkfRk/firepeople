@@ -1,0 +1,207 @@
+{
+  "result": {
+    "totalPurchaseAmount": {
+      "krw": "38115",
+      "usd": "20821.471188"
+    },
+    "marketValue": {
+      "amount": {
+        "krw": "38585",
+        "usd": "22417.561095"
+      },
+      "amountAfterCost": {
+        "krw": "38580",
+        "usd": "22375.101095"
+      }
+    },
+    "profitLoss": {
+      "amount": {
+        "krw": "470",
+        "usd": "1596.089907"
+      },
+      "amountAfterCost": {
+        "krw": "465",
+        "usd": "1553.629907"
+      },
+      "rate": "-0.0192",
+      "rateAfterCost": "-0.0211"
+    },
+    "dailyProfitLoss": {
+      "amount": {
+        "krw": "755",
+        "usd": "21.2446"
+      },
+      "rate": "0.0009"
+    },
+    "items": [
+      {
+        "symbol": "418660",
+        "name": "TIGER 미국나스닥100레버리지(합성)",
+        "marketCountry": "KR",
+        "currency": "KRW",
+        "quantity": "1",
+        "lastPrice": "38585",
+        "averagePurchasePrice": "38115",
+        "marketValue": {
+          "purchaseAmount": "38115",
+          "amount": "38585",
+          "amountAfterCost": "38580"
+        },
+        "profitLoss": {
+          "amount": "470",
+          "amountAfterCost": "465",
+          "rate": "0.0123",
+          "rateAfterCost": "0.0121"
+        },
+        "dailyProfitLoss": {
+          "amount": "755",
+          "rate": "0.0198"
+        },
+        "cost": {
+          "commission": "5",
+          "tax": null
+        }
+      },
+      {
+        "symbol": "BOXX",
+        "name": "BOXX",
+        "marketCountry": "US",
+        "currency": "USD",
+        "quantity": "60",
+        "lastPrice": "118.13",
+        "averagePurchasePrice": "116.399431",
+        "marketValue": {
+          "purchaseAmount": "6983.965884",
+          "amount": "7087.8",
+          "amountAfterCost": "7073.77"
+        },
+        "profitLoss": {
+          "amount": "103.834116",
+          "amountAfterCost": "89.804116",
+          "rate": "0.0148",
+          "rateAfterCost": "0.0128"
+        },
+        "dailyProfitLoss": {
+          "amount": "3",
+          "rate": "0.0004"
+        },
+        "cost": {
+          "commission": "14.03",
+          "tax": null
+        }
+      },
+      {
+        "symbol": "JAAA",
+        "name": "JAAA",
+        "marketCountry": "US",
+        "currency": "USD",
+        "quantity": "65",
+        "lastPrice": "50.58",
+        "averagePurchasePrice": "50.658684",
+        "marketValue": {
+          "purchaseAmount": "3292.814474",
+          "amount": "3287.7",
+          "amountAfterCost": "3281.13"
+        },
+        "profitLoss": {
+          "amount": "-5.114474",
+          "amountAfterCost": "-11.684474",
+          "rate": "-0.0015",
+          "rateAfterCost": "-0.0035"
+        },
+        "dailyProfitLoss": {
+          "amount": "2.6",
+          "rate": "0.0007"
+        },
+        "cost": {
+          "commission": "6.57",
+          "tax": null
+        }
+      },
+      {
+        "symbol": "QLD",
+        "name": "QLD",
+        "marketCountry": "US",
+        "currency": "USD",
+        "quantity": "86.107735",
+        "lastPrice": "90.68",
+        "averagePurchasePrice": "76.013004",
+        "marketValue": {
+          "purchaseAmount": "6545.307621",
+          "amount": "7808.249409",
+          "amountAfterCost": "7794.349409"
+        },
+        "profitLoss": {
+          "amount": "1262.941788",
+          "amountAfterCost": "1249.041788",
+          "rate": "0.1929",
+          "rateAfterCost": "0.1908"
+        },
+        "dailyProfitLoss": {
+          "amount": "25.8323",
+          "rate": "0.0039"
+        },
+        "cost": {
+          "commission": "13.9",
+          "tax": null
+        }
+      },
+      {
+        "symbol": "QNDX",
+        "name": "QNDX",
+        "marketCountry": "US",
+        "currency": "USD",
+        "quantity": "42",
+        "lastPrice": "24.37",
+        "averagePurchasePrice": "23.3252",
+        "marketValue": {
+          "purchaseAmount": "979.6584",
+          "amount": "1023.54",
+          "amountAfterCost": "1021.59"
+        },
+        "profitLoss": {
+          "amount": "43.8816",
+          "amountAfterCost": "41.9316",
+          "rate": "0.0447",
+          "rateAfterCost": "0.0428"
+        },
+        "dailyProfitLoss": {
+          "amount": "2.1",
+          "rate": "0.0021"
+        },
+        "cost": {
+          "commission": "1.95",
+          "tax": null
+        }
+      },
+      {
+        "symbol": "VOO",
+        "name": "VOO",
+        "marketCountry": "US",
+        "currency": "USD",
+        "quantity": "4.534218",
+        "lastPrice": "708.01",
+        "averagePurchasePrice": "665.985801",
+        "marketValue": {
+          "purchaseAmount": "3019.724809",
+          "amount": "3210.271686",
+          "amountAfterCost": "3204.261686"
+        },
+        "profitLoss": {
+          "amount": "190.546877",
+          "amountAfterCost": "184.536877",
+          "rate": "0.0631",
+          "rateAfterCost": "0.0611"
+        },
+        "dailyProfitLoss": {
+          "amount": "-12.2877",
+          "rate": "-0.004"
+        },
+        "cost": {
+          "commission": "6.01",
+          "tax": null
+        }
+      }
+    ]
+  }
+}
